@@ -6,18 +6,19 @@ Este projeto tem como objetivo auxiliar no controle de despesas pessoais por mei
 
 ## 📁 Estrutura do Projeto
 
+```
 controleGastos/
-├── backend/ # API REST com Node.js e Express
-├── frontend/ # Aplicativo mobile com Expo + React Native
-├── .gitignore # Arquivos e pastas ignoradas pelo Git
-├── README.md # Documentação do projeto
-
+├── backend/       # API REST com Node.js e Express
+├── frontend/      # Aplicativo mobile com Expo + React Native
+├── .gitignore     # Arquivos e pastas ignoradas pelo Git
+├── README.md      # Documentação do projeto
+```
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-### Frontend (Mobile):
+### 📱 Frontend (Mobile):
 - React Native
 - Expo
 - expo-router
@@ -25,7 +26,7 @@ controleGastos/
 - React Native Reanimated
 - Context API
 
-### Backend:
+### 🖥️ Backend:
 - Node.js
 - Express
 - MongoDB ou PostgreSQL
@@ -38,49 +39,56 @@ controleGastos/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/controleGastos.git
+git clone https://github.com/luangalvaoxD/controleGastos.git
 cd controleGastos
-
-### Rodando o Backend
-
-cd backend
-npm install
-npm run dev
-
-### Rodando o Frontend
-
-cd ../frontend
-npm install
-npx expo start
-
-🧪 Funcionalidades
-✅ Cadastro de despesas
-
-✅ Listagem e exclusão de gastos
-
-✅ Organização em abas (tabs)
-
-✅ Integração com API RESTful
-
-✅ Modo escuro
-
-🔜 Filtro por categorias
-
-🔜 Autenticação de usuários
-
-✍️ Autor
-Desenvolvido por Luan
-📍 Penedo, AL
-🔗 GitHub
-
-
-Salve e feche o arquivo.
+```
 
 ---
 
-## 📂 **5. Adicione os arquivos e faça o primeiro commit**
+### 2. Rodando o Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+---
+
+### 3. Rodando o Frontend
+
+```bash
+cd ../frontend
+npm install
+npx expo start
+```
+
+---
+
+## 🧪 Funcionalidades
+
+✅ Cadastro de despesas  
+✅ Listagem e exclusão de gastos  
+✅ Organização em abas (tabs)  
+✅ Integração com API RESTful  
+✅ Modo escuro  
+
+🔜 Filtro por categorias  
+🔜 Autenticação de usuários  
+
+---
+
+## ✍️ Autor
+
+Desenvolvido por **Luan**  
+📍 Penedo - AL  
+🔗 [GitHub](https://github.com/luangalvaoxD)
+
+---
+
+## 💾 Primeiro Commit (Exemplo)
 
 ```bash
 git add .
 git commit -m "chore: projeto controle de gastos com frontend e backend"
-
+```
