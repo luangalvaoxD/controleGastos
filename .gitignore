@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.expo.ts
+*.expo.js
+expo-env.d.ts
+
+# React Native / Metro
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.orig.*
+*.tsbuildinfo
+metro-cache/
+.cache/
+.metro-health-check*
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Android/iOS build artifacts (caso venha usar EAS ou nativo)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+android/
+ios/
+
+# Kotlin
+.kotlin/
+
+# Editor settings
+.idea/
+.vscode/
+
+# Ignorar arquivos de exemplo
+app-example
+
+# Logs
+logs/
+*.log
+
+# Coverage / test reports
+coverage/
