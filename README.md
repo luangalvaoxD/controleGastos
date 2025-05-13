@@ -23,14 +23,12 @@ controleGastos/
 - Expo
 - expo-router
 - React Navigation
-- React Native Reanimated
-- Context API
 
 ### 🖥️ Backend:
 - Node.js
 - Express
-- MongoDB ou PostgreSQL
-- Mongoose ou Knex.js
+- PostgreSQL
+- Sequelize
 
 ---
 
@@ -48,9 +46,9 @@ cd controleGastos
 ### 2. Rodando o Backend
 
 ```bash
-cd backend
+cd ../backend
 npm install
-npm run dev
+npm start
 ```
 
 ---
@@ -68,13 +66,10 @@ npx expo start
 ## 🧪 Funcionalidades
 
 ✅ Cadastro de despesas  
-✅ Listagem e exclusão de gastos  
-✅ Organização em abas (tabs)  
-✅ Integração com API RESTful  
-✅ Modo escuro  
-
-🔜 Filtro por categorias  
-🔜 Autenticação de usuários  
+✅ Listagem, alteração e exclusão de gastos  
+✅ Organização em abas (tabs)
+✅ Integração com API RESTful
+✅ Listagem com Flatlist
 
 ---
 
